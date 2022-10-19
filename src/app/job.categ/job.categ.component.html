@@ -1,0 +1,26 @@
+<div class="main">
+<nav class="crumb" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Job Sub Categories</li>
+  </ol>
+</nav>
+<!----------------------------------------------------------------->
+
+
+<div class="container py-4">
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+      <div class="col" *ngFor="let jobTitle of jobTitles">
+        <a [routerLink]="['/job/field',f_id,jobTitle.id]">
+          <div class="p-3 box-head bg-light btn-mouse" role="button">{{jobTitle.jobSin}}<br> {{jobTitle.jobEng}}</div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div>
+    <a routerLink="/" routerLinkActive="active">
+      <button class="btn btn-primary">පෙර පිටුව</button>
+    </a>
+  </div>
+
+</div>

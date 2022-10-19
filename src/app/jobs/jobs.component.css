@@ -1,0 +1,43 @@
+.main{
+  margin-inline: 20px;
+}
+.crumb{
+  background-color: rgb(231, 191, 90);
+  padding-left: 10px;
+  height: 30px;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+}
+
+.bg-light{
+    background-color: rgb(235, 235, 250) !important;
+}
+.box-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: cornflowerblue !important;
+    border-radius: 10px;
+    border-bottom: 1px solid cornflowerblue;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+.btn-mouse:hover{
+    background-color: cornflowerblue !important;
+    border-color: rgb(39, 85, 172) !important;
+    color: white !important;
+    cursor: pointer;
+}
+@font-face {
+    font-family: mySecFont;
+    src: url(../../environments/FM_Malithi.TTF);
+  }
+.fontMod{
+    font-family: mySecFont;
+    font-size: 16px;
+
+}

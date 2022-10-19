@@ -1,0 +1,26 @@
+.main{
+    margin-inline: 20px;
+}
+.crumb{
+    background-color: rgb(231, 191, 90);
+    padding-left: 10px;
+    height: 30px;
+  }
+h3{
+    color : darkred;
+}
+.description-pannel{
+    color: rgb(165, 36, 36);
+    border: 1px solid rgb(200, 150 ,100);
+    background-color: rgba(255, 224, 145, 0.801);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+pre{
+    overflow-wrap: break-word; 
+    word-wrap: break-word; /*IE */
+    white-space: pre-wrap; /*CSS3 */
+    white-space: -moz-pre-wrap;/* Firefox */
+    white-space: -o-pre-wrap; /* Opera 7 */
+}

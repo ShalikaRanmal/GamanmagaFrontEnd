@@ -1,0 +1,20 @@
+<div class="main">
+  <nav class="crumb" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item active" ariea-current="page">Home</li>
+    </ol>
+  </nav>
+  <!------------------------------------------------------------------------------------>
+
+
+  <div class="container py-4">
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+      <div class="col" *ngFor="let jobTitle of jobFields">
+        <a [routerLink]="['/job',jobTitle.id]">
+          <div class="p-3 box-head bg-light btn-mouse" role="button" data-bs-toggle="button">{{jobTitle.jobSin}}<br>
+            {{jobTitle.jobEng}}</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+.main{
+    margin-inline: 20px;
+}
+.crumb{
+    background-color: rgb(231, 191, 90);
+    padding-left: 10px;
+    height: 30px;
+  }
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+.bg-light {
+    background-color: rgb(200, 256, 200) !important;
+}
+
+.box-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(23, 141, 68) !important;
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(5, 83, 28);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.btn-mouse:hover {
+    background-color: rgb(34, 126, 61) !important;
+    border-color: rgb(5, 56, 24) !important;
+    color: white !important;
+    cursor: pointer;
+}
+
